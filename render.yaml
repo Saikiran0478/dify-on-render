@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: dify-backend
+    env: docker
+    repo: https://github.com/Saikiran0478/dify-on-render.git
+    region: oregon
+    plan: free
+    dockerContext: ./docker
+    dockerfilePath: ./docker/Dockerfile
+    branch: main
+    autoDeploy: true
