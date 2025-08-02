@@ -1,0 +1,9 @@
+# Ignore Docker volumes and runtime data
+volumes/
+.env
+*.rdb
+*.pid
+*.log
+__pycache__/
+*.pyc
+node_modules/
